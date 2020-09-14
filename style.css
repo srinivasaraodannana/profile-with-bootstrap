@@ -15,9 +15,7 @@
 .navbar-nav{
 margin-left: 300px;
 }
-.nav-item:hover{
-    color:red;
-}
+
 #qwe{
     color:green;
 }
@@ -107,9 +105,79 @@ margin-left: 300px;
             
         }
 
+        .pic22{
+            border-top-right-radius: 70px;
+            border-bottom-left-radius: 50px;
+            transition: 4s,transform 2s;
+            transition-delay: 0.5s;
+        }
+        .pic22:hover{
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+            border-top-left-radius: 70px;
+            border-bottom-right-radius: 50px;
+            transform: rotate(360deg);
+        }
+       
 
-
-
+        .para2{
+            font-size:40px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+        }
+        .skill-text{
+            margin-top: 30px;
+            opacity:0.9;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align:center;
+          }
+          .cen-skills{
+            
+            opacity:0.5;
+          } 
+     
+          .dad{
+            box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.5);
+           
+            height:230px;
+            text-align: ;
+           
+       }
+       .dad-pic{
+           width:150px;
+           height:200px;
+         
+           border-radius: 5px;
+       }
+       .dad-txt{
+         
+          
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+           
+       }
+      .dad-dis{
+          opacity:0.5;
+      }
+      .bro{
+       box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.5);
+       max-width: 560px;
+       height:230px;
+      
+       padding-left: -20px;
+     
+   }
+   .bro-txt{
+       width:350px;
+       height:180px;
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   .footer-home{
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    margin-top:50px;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 /*
 
 
@@ -157,32 +225,7 @@ hr{
 font-family: Verdana, Geneva, Tahoma, sans-serif; 
 margin-left: 40px;
 }
-.dis{
-    font-size:20px;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-margin-left: 40px; 
-margin-top:10px ;
-}
-.pic1{
-    align:right;
-    margin-left:800px;
-    margin-top:-80px;
-}
-.pic11{
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 50px;
-    transition: 5s,transform 2s;
-    transition-delay: 0.5s;
-    
-}
-.pic11:hover{
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-    border-top-right-radius: 70px;
-    border-bottom-left-radius: 50px;
-    transform: rotate(360deg);
-    
-}
+
 .but{
     
     margin-top:-200px;
@@ -224,23 +267,7 @@ transition: 2s;
     border:none;
     border-radius:8px;
 }
-.pic22{
-    border-top-right-radius: 70px;
-    border-bottom-left-radius: 50px;
-    transition: 4s,transform 2s;
-    transition-delay: 0.5s;
-}
-.pic22:hover{
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-top-left-radius: 70px;
-    border-bottom-right-radius: 50px;
-    transform: rotate(360deg);
-}
-.pic2{
-    margin-top:180px;
-    margin-left: 110px;
-}
+
 .para2{
     font-size:40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -311,15 +338,7 @@ transition: 2s;
   font-size:40px;
   text-align: center;
 }
-  .skill-text{
-    opacity:0.7;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align:center;
-  }
-  .cen-skills{
-    
-    opacity:0.5;
-  } 
+  
  
 .jspic{
     width: 60px;
@@ -567,46 +586,7 @@ margin-top: 20px;
       border-radius: 15px;
 
     }
-    .dad{
-         box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.5);
-         max-width: 560px;
-         height:230px;
-         margin-left: 90px;
-         padding-left: -20px;
-    }
-    .dad-pic{
-        width:150px;
-        height:200px;
-        margin-left: 20px;
-        margin-top:20px;
-        border-radius: 5px;
-    }
-    .dad-txt{
-       width:350px;
-       height:180px;
-        margin-left: 200px; 
-        margin-top:-230px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        
-    }
-   .dad-dis{
-       opacity:0.5;
-   }
-   .bro{
-    box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.5);
-    max-width: 560px;
-    height:230px;
-    margin-left: 700px;
-    padding-left: -20px;
-    margin-top: -230px;
-}
-.bro-txt{
-    width:350px;
-    height:180px;
-     margin-left: 200px; 
-     margin-top:-245px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+   
 .previous-btn{
     text-decoration: none;
     display: inline-block;
