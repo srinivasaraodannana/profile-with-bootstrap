@@ -54,7 +54,7 @@ margin-left: 300px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
    
     }
-
+but
     hr{
    
        
@@ -103,9 +103,10 @@ margin-left: 300px;
             border-radius:8px;
         }
     .but2{
+        padding-top:65px;
         font-size:20px;
         border:2px solid rgb(219, 49, 219);
-        padding: 15px 32px;
+        padding: 13px 32px;
         background-color:white;
         border-radius:8px;
         transition: 2s;
@@ -246,23 +247,11 @@ margin-right:auto;
     margin-left: auto;
     margin-right:auto;  
 }
-
-
-
-
-
-
-
-
-
-
 .container1 {
     position: relative;
     width: 50%;
     margin-top: 100px;
-  }
-
-  
+  } 
   .overlay1 {
     position: absolute;
     bottom: 100%;
@@ -327,73 +316,60 @@ box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.5);
     width:90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* .box{
-    position:relative;
-  }
-  
-  .img-title{
-    position: absolute;
-    color: #fff;
-    text-align: center;
-    left: 0;
-    right: 0;
-    top: 10%;
-    letter-spacing: 3px;
-  } */
-  /* .bg-text {
-      position: absolute;;
-    background-color: rgb(165, 10, 165); 
-   /* background-color: rgba(170, 6, 170, 0.3); */   
-                                  
-    /* margin-top:150px; 
-    margin-left:300px;
-    border-radius: 15px;
-    z-index: 1;
-    width: 200px;
+/* .dicegame{
+    margin-left: 200px; 
+    opacity: 0.7;
+    margin-top: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:40px;
-    text-align: center;
-  }
-  .bg-text-contact {
-    position: absolute;;
-  background-color: rgb(165, 10, 165); 
+    width:800px;
 
-                                     color: white;
-  margin-top:150px;
-  margin-left:300px;
-  border-radius: 15px;
-  z-index: 1;
-  width: 250px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size:40px;
-  text-align: center;
-}
-.bg-text-education {
-    position: absolute;;
-  background-color: rgb(165, 10, 165); 
- /* background-color: rgba(170, 6, 170, 0.3); */
-                                                                       
-  /* margin-top:150px; 
-  margin-left:300px;
-  border-radius: 15px;
-  z-index: 1;
-  width: 300px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size:40px;
-  text-align: center;
 } */
+.pro-name{
+
+   
+    opacity:0.9;
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+ .dice{
+   
+    opacity:0.6;
+}
+.pro-btn{
+    font-size:20px;
+border:2px solid rgb(219, 49, 219);
+padding: 15px 32px;
+color:white;
+background-color:black;
+border-radius:8px;
+margin-top: 10px;
+float:right;
+
+}
+.pro-btn:hover{
+        background-color:rgb(170, 6, 170) ;
+        font-size:20px;
+        color:white;
+       
+        border:2px solid rgb(219, 49, 219);
+        border-radius:8px;
+    }
+   .row{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-top: 20px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -669,60 +645,7 @@ box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.5);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
-.dicegame{
-    margin-left: 200px; 
-    opacity: 0.7;
-    margin-top: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width:800px;
 
-}
-.pro-name{
-
-    margin-top: 150px;
-    opacity:0.9;
-    margin-left: 40px; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
-}
-.dice{
-    margin-left: 800px; 
-    margin-top:-200px;
-    opacity:0.6;
-}
-.pro-btn{
-    font-size:20px;
-border:2px solid rgb(219, 49, 219);
-padding: 15px 32px;
-color:white;
-background-color:black;
-border-radius:8px;
-margin-left:950px ;
-margin-top: 20px;
-
-}
-.pro-btn:hover{
-        background-color:rgb(170, 6, 170) ;
-        font-size:20px;
-        color:white;
-       
-        border:2px solid rgb(219, 49, 219);
-        border-radius:8px;
-    }
-    .logo-aucivil{
-        margin-left: 800px; 
-        margin-top:-200px;
-        height:200px;
-        width:300px;
-    }
-    .my-logo{
-        height:80px;
-        width:250px;
-        margin-left: 10px; 
-        margin-top:-90px;
-      position: absolute;
-      border-radius: 15px;
-
-    }
    
 .previous-btn{
     text-decoration: none;
