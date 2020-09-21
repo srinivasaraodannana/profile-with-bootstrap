@@ -42,7 +42,7 @@
         text-decoration:none;
         font-size:20px;
         border:2px solid rgb(219, 49, 219);
-        padding: 13px 32px;
+        padding: 10px 32px;
         background-color:white;
         border-radius:8px;
         transition: 2s;
@@ -56,7 +56,35 @@
             border:none;
             border-radius:8px;
         }
-
+        .resume{
+      
+     position: absolute;
+      color:black;
+      text-decoration:none;
+      font-size:20px;
+      border:2px solid rgb(219, 49, 219);
+      padding: 10px 32px ;
+      background-color:white;
+      border-radius:8px;
+      transition: 2s;
+      
+      }
+      .resume:hover{
+        text-decoration: none;
+          background-color:rgb(170, 6, 170) ;
+          font-size:20px;
+          color:white;
+          border:none;
+          border-radius:8px;
+      }
+        .sel::-moz-selection {
+    background: #8bc34a;
+    color: #fff;
+ }
+ .sel::-moz-selection {
+    background: #8bc34a;
+    color: #fff;
+ }
 
       
   </style>
@@ -64,8 +92,8 @@
 
 
 </head>
-<body class="container-fluid">
-    
+<body class="container-fluid" style="">
+    <div class="sel">
   
 <nav class="navbar navbar-expand-md bg-white fixed-top display-6 navbar-dark" id="srinu">
     <a class="navbar-brand" href="#"><img src="img/my.png" style="width: 150px;"></a>
@@ -89,7 +117,7 @@
           <a class="nav-link padd " style="color:rgb(122, 4, 122)"  href="education.html">EDUCATION</a>
         </li>    
         <li class="nav-item">
-            <a class="nav-link padd " style="color:rgb(122, 4, 122)" href="#">PROJECTS</a>
+            <a class="nav-link padd " style="color:rgb(122, 4, 122)" href="projects.html">PROJECTS</a>
           </li>  <li class="nav-item">
             <a class="nav-link padd " style="color:rgb(122, 4, 122)"  href="contact.html">CONTACT</a>
           </li>  
@@ -100,20 +128,20 @@
   <div class="row" style='margin-top: 150px; '>
     <div class="col-8  " style="">
       <div class="hello">
-        HELLO<hr style=" width:200px;height:2px; margin-left:130px;
+        HELLO<hr style=" width:200px;color: black; height:2px; margin-left:130px;
         margin-top:-10px;">
         </div>
         <div class="name">
         I AM SRINIVASA RAO DANNANA
         </div>
-        <div class="opc">SRINU</div>
+        <!-- <div class="opc">SRINU</div> -->
         <div class="dis">
         -WEB PAGE DEVELOPER,VIEDO EDITOR & CIVIL ENGINEER
-        </div>
+        </div><div class="row">
         <div class=" but" style="margin-top:10px ;">
           <a class="hire" href='tel:+919014083979'>HIRE ME</a>
-          <button class="but2" style="margin-top:5px">GET RESUME</button>
-          </div>
+          <a class="resume" style="margin-top:2px ;" href="resume.pdf">GETRESUME</a>
+          </div></div>
       </div>
     <div class="col-sm-4" style="">
       <div class="pic1">
@@ -147,6 +175,42 @@
       <p class="cen-skills">My family is strength to my sucess</p><br><br>
   </div>
    
+<div class="row">
+  <div class="col-sm-6">
+
+<div class="prj row" style="background-color: rgb(241, 227, 240); margin-left: 10px;">
+  <div class="prj-no col-5" style="margin-left: 10px; border: 2px dashed grey;width: 150px ;height: 150px;font-size: 100px;font-weight: bold;padding-left: 50px;color: rgb(168, 8, 173);margin-top:-20px; margin-left:-30px ;">
+    10
+  </div>
+<div class="prj-txt col-7" style="margin-left:-10px ; padding-left:45px; padding-top:20px;font-size:25px;font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+  Number of <br>
+  Projects<br>
+  Done.
+</div>
+</div>
+  </div>
+<div class="col-sm-6">
+  <div class="prj row" style="background-color: rgb(241, 227, 240);margin-left: 10px;margin-top: -1px;">
+    <div class="col-4" style="padding-top:30px ;">
+      <i class="fa fa-4x fa-phone fa-flip-horizontal" aria-hidden="true" ></i>
+    </div>
+  <div class="prj-txt col-8" >
+   <div style="margin-left:-10px; padding-left:30px; padding-top:20px;font-size:25px;color:blueviolet;">CALL US NOW</div>
+   <div style="margin-left:-10px; padding-left:30px; padding-top:20px;font-size:25px;font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;"><a href="tel:9014083979" style="color: black;text-decoration:none ;"> +91 9014083979</a></div>
+  </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
   <div id="demo" class="carousel slide justif-content-cente" data-ride="carousel">
 
     <!-- Indicators 
@@ -198,7 +262,7 @@
               <br>
             </p> 
   
-              <i class="fas fa-phone-alt " style="font-size:15px"></i>+91 8328477039<br><br></p> </div></div>
+              <i class="fas fa-phone-alt " style="font-size:15px"></i><a href="tel:+918328477039" style="color: black;">+91 8328477039</a><br><br></p> </div></div>
            
         </div>
       </div>
@@ -215,7 +279,7 @@
               <br>
             </p> 
   
-              <i class="fas fa-phone-alt " style="font-size:15px"></i>+91 9676556564<br><br></p> </div></div>
+              <i class="fas fa-phone-alt " style="font-size:15px"></i><a href="tel:+919014083979" style="color: black;">+91 9676556564</a><br><br></p> </div></div>
            
         </div>
     </div>
@@ -229,28 +293,34 @@
     </a>
   </div> 
 
-<div class='row'>
-  <div class='col'>
-  <footer class="footer-home">
-    <h1>FOLLOW ME</h1>
-    <div class="fontawesome">
-    <a href="#" class="youtube"><i class="fab fa-3x fa-youtube"  ></i></a>
-    <a href="#" class="facebook"><i class="fab fa-3x fa-facebook-square"></i></a>
-        <a href="#" class="instagram"><i class="fab fa-3x fa-instagram"></i></a>
-            <a href="#" class="linkedin"><i class="fab fa-3x fa-linkedin-in"></i></a>
-                <a href="#"class="github"> <i class="fab fa-3x fa-github"></i></a>
-                    <a href="#"class="twitter"><i class="fab fa-3x fa-twitter"></i></a>
-    </div><br><br>
-    ALL RIGHTS ARE RESERVED.&#174 2020 SRINU DESIGNED BY:SRINIVASA RAO DANNANA
-  </footer>
+  <div class="row" ><div class="col-sm">
+    <div class="anywhere" style="height:200px; ">
+      GET UPDATE FROM ANYWHERE
 
-</div></div>
+      <div class="row">
+       
+      <!-- <div class="input-group mb-3 justify-content-center" style=" width:50%;padding-left:auto;opacity:0.4 " > -->
+        <div style="margin-left:auto;">
+        <input type="email" class="email-any"   style=" background-color:transparent;border:1px solid;color:white;border-radius:5px; margin-left: 1px;width:50%;"  placeholder="Your Email" id="mail" name="email">
+        <a style=" padding:5px;text-decoration:none;border:5px;border:1px solid; border-radius:5px; color:black;opacity: 0.9;background-color: white;" href="mailto:srininivasarao.dannana2000@gmail.com">send  </a>
+       
+      </div>  
+    </div></div></div>
 
 
-
-</body>
-
-
-
-    </html>
-
+    <footer class="footer-home">
+      <h1>FOLLOW ME</h1>
+      <div class="fontawesome">
+      <a href="#" class="youtube"><i class="fab fa-3x fa-youtube"  ></i></a>
+      <a href="#" class="facebook"><i class="fab fa-3x fa-facebook-square"></i></a>
+          <a href="#" class="instagram"><i class="fab fa-3x fa-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="fab fa-3x fa-linkedin-in"></i></a>
+                  <a href="#"class="github"> <i class="fab fa-3x fa-github"></i></a>
+                      <a href="#"class="twitter"><i class="fab fa-3x fa-twitter"></i></a>
+      </div><br><br>
+      ALL RIGHTS ARE RESERVED.&#174 2020 SRINU DESIGNED BY:SRINIVASA RAO DANNANA
+    </footer>
+    
+  </div></div>
+  </body>
+      </html>
