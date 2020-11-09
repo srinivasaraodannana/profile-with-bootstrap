@@ -36,6 +36,15 @@
 
   <style>
 
+
+
+
+
+
+
+
+
+
 .certificate{
       
 
@@ -64,6 +73,13 @@
 
 </head>
 <body  class="container">
+
+
+  <audio autoplay id="ram">
+    <source src="[iSongs.info] 03 - Life Of Ram.mp3" type="audio/ogg">
+    <source src="[iSongs.info] 03 - Life Of Ram.mp3" type="audio/mpeg">
+    
+  </audio>
     <nav class="navbar navbar-expand-md bg-white fixed-top display-6 navbar-dark" id="srinu">
         <a class="navbar-brand" href="#"><img src="img/my.png" style="width: 150px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" style='background-color: rgb(122, 4, 122);' data-target="#collapsibleNavbar">
@@ -99,7 +115,12 @@
 
 
 
-
+      <div class="row" style='padding-top: 120px; padding-left: 20px;'></div>
+      <div >
+      <i class="fa fa-music fa-2x" aria-hidden="true" style="color: rgb(122, 4, 122); margin-left: 20px ; "></i>
+      <i class="fas fa-play fa-2x" onclick="playaudio()" style="color: rgb(122, 4, 122);margin-left: 40px; "></i>
+      <i class="fa fa-pause fa-2x" onclick="pauseaudio()" aria-hidden="true"  style="color: rgb(122, 4, 122);margin-left:40px;"></i>
+      </div>
 
     
      
@@ -110,8 +131,8 @@
     <div class="text1">EDUCATION</div>
   </div>
   </div> -->
-  <div class="row"><div class="col-sm">
-  <div class="linear">
+  <div class="row" style='margin-top: -120px;'><div class="col-sm">
+  <div class="linear glow"style="font-family: cursive;">
     SKILLS
   </div></div></div>
   
@@ -196,7 +217,7 @@
          
         </div>  
       </div></div></div>
-
+ 
     
   <footer class="footer-home">
     <h1>FOLLOW ME</h1>
@@ -211,6 +232,22 @@
     ALL RIGHTS ARE RESERVED.&#174 2020 SRINU DESIGNED BY:SRINIVASA RAO DANNANA
   </footer>
 </div></div>
+
+
+<script >
+  function playaudio(){
+  
+  
+  var mlp= document.getElementById("ram");
+  mlp.currentTime = 7;  
+  mlp.play();
+     }
+     function pauseaudio(){
+  var mlp= document.getElementById("ram");
+  mlp.pause();  
+     }</script>
+
 </body>
+
     </html>
 

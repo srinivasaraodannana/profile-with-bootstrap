@@ -88,7 +88,7 @@
 
 }
 .navbar-nav{
-margin-left: 300px;
+
 }
 
 #qwe{
@@ -216,7 +216,7 @@ margin-left: 300px;
             box-shadow: 4px 4px 6px 4px rgba(0, 0, 0, 0.5);
            
             height:230px;
-            text-align: ;
+       
            
        }
        .dad-pic{
@@ -278,7 +278,7 @@ margin-left: 300px;
 
 .topimg,.card-image-top{
 margin-left: auto;
-margin-right:auto:
+margin-right:auto;
  
 }
 .card{
@@ -417,7 +417,7 @@ float:right;
 
 }
 .pro-btn:hover{
-        background-color:rgb(170, 6, 170) ;
+        background-color:rgb(170, 6, 170);
         font-size:20px;
         color:white;
        
@@ -428,6 +428,28 @@ float:right;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     margin-top: 20px;
    }
+   
+
+    .glow {
+        font-family: cursive;
+      color: #fff;
+      text-align: center;
+      -webkit-animation: glow 2s ease-in-out infinite alternate;
+      -moz-animation: glow 2s ease-in-out infinite alternate;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px rgb(122, 4, 122), 0 0 40px rgb(122, 4, 122), 0 0 50px rgb(122, 4, 122), 0 0 60px rgb(122, 4, 122), 0 0 70px rgb(122, 4, 122);
+      }
+      
+      to {
+        text-shadow: 0 0 20px #fff, 0 0 30px rgb(219, 49, 219), 0 0 40px rgb(219, 49, 219), 0 0 50px rgb(219, 49, 219), 0 0 60px rgb(219, 49, 219), 0 0 70px rgb(219, 49, 219), 0 0 80px rgb(219, 49, 219);
+      }
+    }
+
+
 
 
 

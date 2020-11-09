@@ -40,6 +40,11 @@
 
 </head>
 <body  class="container" style="width: 100%;">
+  <audio autoplay id="ram">
+    <source src="[iSongs.info] 03 - Life Of Ram.mp3" type="audio/ogg">
+    <source src="[iSongs.info] 03 - Life Of Ram.mp3" type="audio/mpeg">
+    
+  </audio>
     <nav class="navbar navbar-expand-md bg-white fixed-top display-6 navbar-dark" id="srinu">
         <a class="navbar-brand" href="#"><img src="img/my.png" style="width: 150px;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" style='background-color: rgb(122, 4, 122);' data-target="#collapsibleNavbar">
@@ -67,7 +72,12 @@
         </div>  
     
       </nav>
- 
+      <div class="row" style='padding-top: 100px; padding-left: 20px;'></div>
+      <div >
+      <i class="fa fa-music fa-2x" aria-hidden="true" style="color: rgb(122, 4, 122); margin-left: 20px ; "></i>
+      <i class="fas fa-play fa-2x" onclick="playaudio()" style="color: rgb(122, 4, 122);margin-left: 40px; "></i>
+      <i class="fa fa-pause fa-2x" onclick="pauseaudio()" aria-hidden="true"  style="color: rgb(122, 4, 122);margin-left:40px;"></i>
+      </div>
 
  
 
@@ -85,7 +95,7 @@
     <div class="text1">EDUCATION</div>
   </div>
   </div> -->
-  <div class="linear">
+  <div class="linear glow" style='margin-top: 20px;' >
     EDUCATION
   </div>
 
@@ -172,5 +182,6 @@
   </footer>
   
 </div></div>
+<script src="app.js"></script>
 </body>
     </html>

@@ -92,10 +92,20 @@
 
 
 </head>
-<body class="container-fluid" style="">
-    <div class="sel">
+<body class="container-fluid" >
+
+
+  <audio autoplay id="ram">
+    <source src="[iSongs.info] 03 - Life Of Ram.mp3" type="audio/ogg">
+    <source src="[iSongs.info] 03 - Life Of Ram.mp3" type="audio/mpeg">
+    
+  </audio>
+
+
+
+    <div class="sel" >
   
-<nav class="navbar navbar-expand-md bg-white fixed-top display-6 navbar-dark" id="srinu">
+<nav class="navbar navbar-expand-md bg-white fixed-top display-6 navbar-dark" id="srinu" >
     <a class="navbar-brand" href="#"><img src="img/my.png" style="width: 150px;"></a>
     <button class="navbar-toggler  justif-content-center" type="button" data-toggle="collapse" style='background-color: rgb(122, 4, 122);' data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -105,7 +115,7 @@
     
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
      
-     
+     <strong>
       <ul class="navbar-nav justif-content-center "  >
         <li class="nav-item">
           <a class="nav-link padd active " id="qwe"style="color:rgb(219, 49, 219)" href="#">HOME</a>
@@ -121,21 +131,27 @@
           </li>  <li class="nav-item">
             <a class="nav-link padd " style="color:rgb(122, 4, 122)"  href="contact.html">CONTACT</a>
           </li>  
-      </ul>
+      </ul></strong>
     </div>  
 
   </nav>
-  <div class="row" style='margin-top: 150px; '>
+  <div class="row" style='margin-top: 120px;'></div>
+  <div >
+  <i class="fa fa-music fa-2x" aria-hidden="true" style="color: rgb(122, 4, 122); "></i>
+  <i class="fas fa-play fa-2x" onclick="playaudio()" style="color: rgb(122, 4, 122);margin-left: 40px; "></i>
+  <i class="fa fa-pause fa-2x" onclick="pauseaudio()" aria-hidden="true"  style="color: rgb(122, 4, 122);margin-left:40px;"></i>
+  </div>
+  
     <div class="col-8  " style="">
-      <div class="hello">
+      <div class="hello" onscroll="playaudio()">
         HELLO<hr style=" width:200px;color: black; height:2px; margin-left:130px;
         margin-top:-10px;">
         </div>
-        <div class="name">
-        I AM SRINIVASA RAO DANNANA
+        <div id="typeWriter" class="name">
+        
         </div>
         <!-- <div class="opc">SRINU</div> -->
-        <div class="dis">
+        <div class="dis"  onscroll="playaudio()">
         -WEB PAGE DEVELOPER,VIEDO EDITOR & CIVIL ENGINEER
         </div><div class="row">
         <div class=" but" style="margin-top:10px ;">
@@ -322,5 +338,26 @@
     </footer>
     
   </div></div>
+
+  <script src="app.js"></script>
+
+<script>
+var i = 0;
+var txt = 'I AM SRINIVASA RAO DANNANA ';
+var speed = 100;
+typeWriter();
+function typeWriter() {
+  
+  if (i < txt.length) {
+    document.getElementById("typeWriter").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+  </script>
+  
   </body>
+
+
+
       </html>
