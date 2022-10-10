@@ -1,348 +1,604 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
-    <html lang="en">
-        <head> <!-- Basic -->
-             
-            <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="keywords" content="">
-            <meta name="description" content="SRINU PROFILE">
-            <meta name="author" content="srinu">
-            <meta http-equiv="refresh" content="600">
-            <title> 
-                Dannana Srinivasa Rao
-            </title> 
-            <link type="text/css" rel="stylesheet" href="style.css" >
-    
+<!-- 
+  Bootstrap 3.3.4
+-->
+<html lang="en" class="no-js">
+    <!-- BEGIN HEAD -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Dannana Srinivasa Rao</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta content="width=device-width, initial-scale=1" name="viewport"/>
+        <meta content="" name="description"    >
+        <meta content="" name="author"/>
 
-           <!-- bootstrap  -->
-           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-           <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-   
-             
+        <!-- GLOBAL MANDATORY STYLES -->
+        <link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css">
+        <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css"/>
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- PAGE LEVEL PLUGIN STYLES -->
+        <link href="css/animate.css" rel="stylesheet">
+        <link href="vendor/swiper/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- THEME STYLES -->
+        <link href="css/layout.min.css" rel="stylesheet" type="text/css"/>
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="favicon.ico"/>
+    </head>
+    <!-- END HEAD -->
+
+    <!-- BODY -->
+    <body id="body" data-spy="scroll" data-target=".header">
+
+        <!--========== HEADER ==========-->
+        <header class="header navbar-fixed-top">
+            <!-- Navbar -->
+            <nav class="navbar" role="navigation">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="menu-container js_nav-item">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a class="logo-wrap" href="#body">
+                                
+                            </a>
+                        </div>
+                        <!-- End Logo -->
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse nav-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav navbar-nav-right">
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">Home</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">About</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#education">Education</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">Certificates</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">Projects</a></li>
+                                <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End Navbar Collapse -->
+                </div>
+            </nav>
+            <!-- Navbar -->
+        </header>
+        <!--========== END HEADER ==========-->
+
+        <!--========== SLIDER ==========-->
+        <div class="promo-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 sm-margin-b-60">
+                        <div class="margin-b-30">
+                            <h1 class="promo-block-title">Srinivasa Rao <br/> Dannana</h1>
+                            <p class="promo-block-text"> Final Year student</p>
+                        </div>
+                        <ul class="list-inline">
+                            <li><a href="#" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                            <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="promo-block-img-wrap">
+                            <img class="promo-block-img img-responsive" src="img/mockup/avatar-01.png" align="Avatar">
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!--========== SLIDER ==========-->
+
+        <!--========== PAGE LAYOUT ==========-->
+        <!-- About -->
+        <div id="about">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-5 sm-margin-b-60">
+                        <img class="full-width img-responsive" src="img/500x700/01.jpg" alt="Image">
+                    </div>
+                    <div class="col-sm-7">
+                        <div class="section-seperator margin-b-50">
+                            <div class="margin-b-50">
+                                <div class="margin-b-30">
+                                    <h2>About Me</h2>
+                                    <p>I'm Dannana Srinivasa Rao, Seeking a career that is challenging and interesting, and lets me work on the leading areas of technology, a job that gives me opportunities to learn, innovate and enhance my skills and strengths in conjunction with company goals and objectives.</p>
+                                    <p>Strong in design and integration with intuitive problem-solving skills. Proficient in C#, PYTHON, JAVASCRIPT,HTML,CSS,Firebse,ReactJS,Bootstrap and MongoDB. Passionate about implementing and launching new projects. Ability to translate business requirements into technical solutions.</p>
+                                </div>
+                                <a href="Resume24.pdf" class="btn-theme btn-theme-md btn-default-bg text-uppercase">Download my RESUME</a>
+                            </div>
+                        </div>
+
+                        <h2>My Skills</h2>
+                        <!-- Progress Box -->
+                        <div class="progress-box">
+                            <h5>C# <span class="color-heading pull-right">90%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="90"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Python <span class="color-heading pull-right">85%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Javascript <span class="color-heading pull-right">70%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Html,CSS & Bootstrap <span class="color-heading pull-right">85%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>ReactJS <span class="color-heading pull-right">75%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Firebase<span class="color-heading pull-right">50%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="50"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>MongoDB<span class="color-heading pull-right">50%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="50"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>React Native<span class="color-heading pull-right">30%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="30"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>AutoCAD (civil)<span class="color-heading pull-right">80%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="80"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>SketchUP<span class="color-heading pull-right">85%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="85"></div>
+                            </div>
+                        </div>
+                        <div class="progress-box">
+                            <h5>Twinmotion<span class="color-heading pull-right">75%</span></h5>
+                            <div class="progress">
+                                <div class="progress-bar bg-color-base" role="progressbar" data-width="75"></div>
+                            </div>
+                        </div>
+
+                        <!-- End Progress Box -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+        <!-- End About -->
 
       
-
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" >
-
-    
-    <script defer src="font/js/all.js"></script>
-    <link href="font/css/fontawesome.css" rel="stylesheet">
-    <link href="font/css/brands.css" rel="stylesheet">
-    <link href="font/css/solid.css" rel="stylesheet">
-
-
-    <style>
-      .hire{
-      
-
-        color:black;
-        text-decoration:none;
-        font-size:20px;
-        border:2px solid rgb(219, 49, 219);
-        padding: 10px 32px;
-        background-color:white;
-        border-radius:8px;
-        transition: 2s;
         
-        }
-        .hire:hover{
-          text-decoration: none;
-            background-color:rgb(170, 6, 170) ;
-            font-size:20px;
-            color:white;
-            border:none;
-            border-radius:8px;
-        }
-        .resume{
-      
-     position: absolute;
-      color:black;
-      text-decoration:none;
-      font-size:20px;
-      border:2px solid rgb(219, 49, 219);
-      padding: 10px 32px ;
-      background-color:white;
-      border-radius:8px;
-      transition: 2s;
-      
-      }
-      .resume:hover{
-        text-decoration: none;
-          background-color:rgb(170, 6, 170) ;
-          font-size:20px;
-          color:white;
-          border:none;
-          border-radius:8px;
-      }
-        .sel::-moz-selection {
-    background: #8bc34a;
-    color: #fff;
- }
- .sel::-moz-selection {
-    background: #8bc34a;
-    color: #fff;
- }
+        <!-- Education -->
+        <div id="education">
+            <div class="container content-lg">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h1>Education</h1>
+                        <p><i>"Education is the most powerful weapon which you can use to change the world"</i></p><p><b>--Nelson Mandela</b></p>
+                    </div>
+                </div>
+                <!--// end row -->
 
-      
-  </style>
+                <div class="row">
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                      
+                        <h4><a href="#">B.Tech (CIVIL)</a> <span class="text-uppercase margin-l-20">2019-2023</span></h4>
+                        <p>Andhra University College of Engineering </p>
+                        <p>Madillapalem,Visakhapatnam Andhra Pradesh 530003</p>
+                        
+                    </div>
+                    <!-- End Latest Products -->
+                     <!-- Latest Products -->
+                     <div class="col-sm-4 sm-margin-b-50">
+                      
+                        <h4><a href="#">Intermidiate(M.P.C)</a> <span class="text-uppercase margin-l-20">2017-2019</span></h4>
+                        <p>Sri Chaitnya Junior College</p>
+                        <p>Marikavalasa,Visakhapatnam Andhra Pradesh 530003</p>
+                        
+                    </div>
+                    <!-- End Latest Products -->
 
-
-
-</head>
-<body class="container-fluid" style="">
-    <div class="sel">
-  
-<nav class="navbar navbar-expand-md bg-white fixed-top display-6 navbar-dark" id="srinu">
-    <a class="navbar-brand" href="#"><img src="img/my.png" style="width: 150px;"></a>
-    <button class="navbar-toggler  justif-content-center" type="button" data-toggle="collapse" style='background-color: rgb(122, 4, 122);' data-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-
-    
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-     
-     
-      <ul class="navbar-nav justif-content-center "  >
-        <li class="nav-item">
-          <a class="nav-link padd active " id="qwe"style="color:rgb(219, 49, 219)" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link padd " style="color:rgb(122, 4, 122)" href="skills.html">SKILLS</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link padd " style="color:rgb(122, 4, 122)"  href="education.html">EDUCATION</a>
-        </li>    
-        <li class="nav-item">
-            <a class="nav-link padd " style="color:rgb(122, 4, 122)" href="projects.html">PROJECTS</a>
-          </li>  <li class="nav-item">
-            <a class="nav-link padd " style="color:rgb(122, 4, 122)"  href="contact.html">CONTACT</a>
-          </li>  
-      </ul>
-    </div>  
-
-  </nav>
-  <div class="row" style='margin-top: 150px; '>
-    <div class="col-8  " style="">
-      <div class="hello">
-        HELLO<hr style=" width:200px;color: black; height:2px; margin-left:130px;
-        margin-top:-10px;">
+                      <!-- Latest Products -->
+                      <div class="col-sm-4 sm-margin-b-50">
+                     
+                        <h4><a href="#">S.S.C </a> <span class="text-uppercase margin-l-20">2016-2017</span></h4>
+                        <p>Z.P.H Schools</p>
+                        <p>Pydibheemavaram,Srikakulam Andhra Pradesh 532409</p>
+                    </div>
+                    <!-- End Latest Products -->
+                    </div>
+                   
+                <!--// end row -->
+            </div>
         </div>
-        <div class="name">
-        I AM SRINIVASA RAO DANNANA
+        <!-- Education-->
+
+
+
+          <!-- Experience -->
+          <div id="experience">
+            <div class="bg-color-sky-light" data-auto-height="true">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                            <h1>Certificates</h>
+                            <p><i>"A certificate does not make you certified.Attitude, performance, commitment to self and team - these and certificate make you certified."</i></p><p><b>--Anonymous</b></p>
+                        </div>
+                    </div>
+                    <div class="row row-space-2 margin-b-4">
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge" style="color:rgb(23, 190, 210)"></i>
+                                </div>
+                                <div class="service-info"  style="padding-top: 10px;">
+                                    <h3>Bootstrap 4</h3>
+                                    <p class="margin-b-5">Bootstrap 4 Ultimate Guide 2022 from Udemy</p>
+                                    <p class="margin-b-5" style="padding-top: 10px;"><b>ID:-</b>UC-11839fca-8ad8-4310-81b8-9ff02b288301</p>
+                                </div>
+                                <a href="https://www.udemy.com/certificate/UC-11839fca-8ad8-4310-81b8-9ff02b288301/" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                <div class="service-element">
+                                    <i class="fa fa-google fa-3x"  style="color:rgb(255, 255, 255);" aria-hidden="true"></i>
+                                </div>
+                                <div class="service-info" style="padding-top: 15px;">
+                                    <h3 class="color-white"> Google Analytics</h3>
+                                    <p class="color-white margin-b-5">Google Analytics for Beginners certification course from Google.</p>
+                                    <p class="color-white margin-b-5" style="padding-top: 10px;"><b>ID:-</b>dsC2CnztRG2XOONLSDELnQ</p>
+                                </div>
+                                <a href="https://analytics.google.com/analytics/academy/certificate/dsC2CnztRG2XOONLSDELnQ" class="content-wrapper-link"></a> 
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge" style="color:rgb(23, 190, 210)"></i>
+                                </div>
+                                <div class="service-info"  style="padding-top: 10px;">
+                                    <h3>JavaScript</h3>
+                                    <p class="margin-b-5">JavaScript for Beginners: The Complete Course for Beginners from Udemy</p>
+                                    <p class="margin-b-5" style="padding-top: 10px;"><b>ID:-</b>UC-a453fe4f-5b6c-4279-8a87-1f7698353e4d</p> 
+                                </div>
+                                <a href="https://www.udemy.com/certificate/UC-a453fe4f-5b6c-4279-8a87-1f7698353e4d/" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge" style="color:rgb(23, 190, 210)"></i>
+                                </div>
+                                <div class="service-info"  style="padding-top: 10px;">
+                                    <h3>Python</h3>
+                                    <p class="margin-b-5">Python Complete Course For Beginners from Udemy</p>
+                                    <p class="margin-b-5" style="padding-top: 10px;"><b>ID:-</b>UC-bb739086-2ff1-4cee-b2f7-1153c56e33d8</p>
+                                </div>
+                                <a href="https://www.udemy.com/certificate/UC-bb739086-2ff1-4cee-b2f7-1153c56e33d8/" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge" style="color:rgb(23, 190, 210)"></i>
+                                </div>
+                                <div class="service-info"  style="padding-top: 10px;">
+                                    <h3>HTML&CSS</h3>
+                                    <p class="margin-b-5">HTML, CSS, & Bootstrap - Certification Course for Beginners from Udemy</p>
+                                    <p class="margin-b-5" style="padding-top: 10px;"><b>ID:-</b>UC-44e43f0c-6310-4c6e-bd98-7ac96ca5ebbb</p>
+                                </div>
+                                <a href="https://www.udemy.com/certificate/UC-44e43f0c-6310-4c6e-bd98-7ac96ca5ebbb/" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge" style="color:rgb(23, 190, 210)"></i>
+                                </div>
+                                <div class="service-info"  style="padding-top: 10px;">
+                                    <h3>PowerPoint</h3>
+                                    <p class="margin-b-5"> Complete PowerPoint Megacourse: Beginner to Expert from Udemy</p>
+                                    <p class="margin-b-5" style="padding-top: 10px;"><b>ID:-</b>UC-9290a597-7945-43af-b243-da0b227110b7</p>
+                                </div>
+                                <a href="https://www.udemy.com/certificate/UC-9290a597-7945-43af-b243-da0b227110b7/" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge" style="color:rgb(23, 190, 210)"></i>
+                                </div>
+                                <div class="service-info"  style="padding-top: 10px;">
+                                    <h3>Microsoft Excel</h3>
+                                    <p class="margin-b-5"> Microsoft Excel Ultimate Guide 2022 on 10/11/2022 as taught by Learn Tech Plus on Udemy.</p>
+                                    <p class="margin-b-5" style="padding-top: 10px;"><b>ID:-</b>UC-f82f5e18-3f5f-43e6-adde-bc3126bef456</p>
+                                </div>
+                                <a href="https://www.udemy.com/certificate/UC-f82f5e18-3f5f-43e6-adde-bc3126bef456/" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge" style="color:rgb(23, 190, 210)"></i>
+                                </div>
+                                <div class="service-info"  style="padding-top: 10px;">
+                                    <h3>AutoCAD</h3>
+                                    <p class="margin-b-5"> AutoCAD Civil 3D on Itronixsolutions.</p>
+                                    <p class="margin-b-5" style="padding-top: 10px;"><b>ID:-</b>#00097292</p>
+                                </div>
+                                <a href="https://www.itronixsolutions.com/courses/certificate/9575807ae3" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-3 col-sm-6 md-margin-b-4">
+                            <div class="service" data-height="height">
+                                <div class="service-element">
+                                    <i class="service-icon icon-badge" style="color:rgb(23, 190, 210)"></i>
+                                </div>
+                                <div class="service-info"  style="padding-top: 10px;">
+                                    <h3>Developer Program</h3>
+                                    <p class="margin-b-5"> AutoCAD Civil 3D on Itronixsolutions.</p>
+                                    <p class="margin-b-5" style="padding-top: 10px;"><b>ID:-</b>#00097292</p>
+                                </div>
+                                <a href="https://www.itronixsolutions.com/courses/certificate/9575807ae3" class="content-wrapper-link"></a>    
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div> 
         </div>
-        <!-- <div class="opc">SRINU</div> -->
-        <div class="dis">
-        -WEB PAGE DEVELOPER,VIEDO EDITOR & CIVIL ENGINEER
-        </div><div class="row">
-        <div class=" but" style="margin-top:10px ;">
-          <a class="hire" href='tel:+919014083979'>HIRE ME</a>
-          <a class="resume" style="margin-top:2px ;" href="resume.pdf">GETRESUME</a>
-          </div></div>
-      </div>
-    <div class="col-sm-4" style="">
-      <div class="pic1">
-      <img class="pic11" src="img/first.jpg" style='margin-top: 60px;' width="100%" alt="srinu">
-      </div></div>
-   
-  </div>
-  <br>
-  <div class="row">
-    <div class="col-sm-5" style=""> <div class="pic2">
-      <img  class="pic22" src="img/second.jpg" width="100%" alt="srinu">
-      </div></div>
-    <div class="col-sm-7" style=""> <div class="para2">
-      LET'S<br>
-      INTRODUCE ABOUT<br>
-      MYSELF
-      </div>
-    <div class="abt">
+        <!-- End Experience -->
+        <!-- Work -->
+        <div id="work">
+            <div class="container content-lg">
+                <div class="row margin-b-40">
+                    <div class="col-sm-6">
+                        <h2>Projects</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                    </div>
+                </div>
+                <!--// end row -->
 
+                <div class="row">
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/1.png" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">E-Book Store</a> <span class="text-uppercase margin-l-20">2020</span></h4>
+                        <p> A dynamic Application.Only For the Andhra University students.Semister wise materials collection will be there.Many functionalities like user can add books,users can ask questions.Soon more functionalities will be added.</p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
 
-      My name is Srinivasarao, I’m 19 years old and I studying at Andhra University College Of Engineering of cousre B.tech of Civil Department.I chose that field of study because I’ve always been interested in construction and planning, and a couple of family members told me it leads to great career options, too. I was also cricket lover.
-      </div>
-  </div>
-  </div>
-  </div>
-  <div class="row">
-    <div class="col-sm-6">
-  
-  <div class="prj row" style="background-color: rgb(241, 227, 240); margin-left: 10px;">
-    <div class="prj-no col-5" style="margin-left: 10px; border: 2px dashed grey;width: 150px ;height: 150px;font-size: 100px;font-weight: bold;padding-left: 50px;color: rgb(168, 8, 173);margin-top:-20px; margin-left:-30px ;">
-      10
-    </div>
-  <div class="prj-txt col-7" style="margin-left:-10px ; padding-left:45px; padding-top:20px;font-size:25px;font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;">
-    Number of <br>
-    Projects<br>
-    Done.
-  </div>
-  </div>
-    </div>
-  <div class="col-sm-6">
-    <div class="prj row" style="background-color: rgb(241, 227, 240);margin-left: 10px;margin-top: -1px;">
-      <div class="col-4" style="padding-top:30px ;">
-        <i class="fa fa-4x fa-phone fa-flip-horizontal" aria-hidden="true" ></i>
-      </div>
-    <div class="prj-txt col-8" >
-     <div style="margin-left:-10px; padding-left:30px; padding-top:20px;font-size:25px;color:blueviolet;">CALL US NOW</div>
-     <div style="margin-left:-10px; padding-left:30px; padding-top:20px;font-size:25px;font-weight: bolder; font-family: Verdana, Geneva, Tahoma, sans-serif;"><a href="tel:9014083979" style="color: black;text-decoration:none ;"> +91 9014083979</a></div>
-    </div>
-    </div>
-  </div>
-  </div>
-  
-     
-      <div class="skill-text">
-      <h1 >MY FAMILY</h1>
-      <p class="cen-skills">My family is strength to my sucess</p><br><br>
-  </div>
-   
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/2.png" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">College Application</a> <span class="text-uppercase margin-l-20">2021</span></h4>
+                        <p>A static Application.This site for Andhra University Civil Students.Students get all other students details. </p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
+                      <!-- Latest Products -->
+                      <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/3.png" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Dice Game </a> <span class="text-uppercase margin-l-20">2022</span></h4>
+                        <p>A dynamic application.Implemented functionalities like New Game, Custom Score etc.Created responsive pages for better experience.</p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
+                    </div>
+                    <div class="row">
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/4.png" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Budget Calculator</a> <span class="text-uppercase margin-l-20">2020</span></h4>
+                        <p>A static application.Implemented functionalities like add,remove,availble balance.</p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/5.png" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">Intrest Calculator</a> <span class="text-uppercase margin-l-20">2021</span></h4>
+                        <p>A static web application.Implemented functionalities lika custom intrest rate,principle amount etc.</p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
 
-
-
-
-
-
-
-
-
-
-
-  <div id="demo" class="carousel slide justif-content-cente" data-ride="carousel">
-
-    <!-- Indicators 
-    <div class="row no-gutters align-content-cente" style="height: 300px;">
- 
-      <div class="col-5 " style=""><img src="img/Dad.jpg" class="card-img-top" style="height:200px;width:auto"></div>
-
-      <div class="col-7   " >
-        <div class=" card-body">
-          <h2 class="card-title">APPALA NAIDU</h2>
-        <p class="">Occupatio:farmer</p>
-          Qualification:0<br>
-          Age:48
-          <br>
-        </p> 
-
-          <i class="fas fa-phone-alt " style="font-size:15px"></i>+91 9676556564<br><br></p> </div></div>
-       
-    </div></div> -->
-    
-    <!-- The slideshow -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-      <div class="row align-content-cente">
- 
-        <div class="col-5 " style=""><img src="img/Dad.jpg" class="dad-pic"></div>
-
-        <div class="col-7  " >
-          <div class="dad-txt"><h2>APPALA NAIDU</h2>
-          <p class="dad-dis"  style="margin-top: -20px;">Occupatio:farmer
-            Qualification:0<br>
-            Age:48
-            <br>
-          </p> 
-
-            <i class="fas fa-phone-alt " style="font-size:15px"></i><a href="tel:+919014083979" style="color: black;">+91 9676556564</a><br><br></p> </div></div>
-         
-      </div></div>
-      <div class="carousel-item">
-        <div class="row align-content-cente">
- 
-          <div class="col-5" style=""><img src="img/Bro.jpg" class="dad-pic"></div>
-  
-          <div class="col-7  " >
-            <div class="dad-txt"><h2>SAI KIRAN</h2>
-            <p class="dad-dis"  >Occupatio:software
-              Qualification:b.tech<br>
-              Age:22
-              <br>
-            </p> 
-  
-              <i class="fas fa-phone-alt " style="font-size:15px"></i><a href="tel:+918328477039" style="color: black;">+91 8328477039</a><br><br></p> </div></div>
-           
+                    <!-- Latest Products -->
+                    <div class="col-sm-4 sm-margin-b-50">
+                        <div class="margin-b-20">
+                            <div class="wow zoomIn" data-wow-duration=".3" data-wow-delay=".1s">
+                                <img class="img-responsive" src="img/970x647/6.png" alt="Latest Products Image">
+                            </div>
+                        </div>
+                        <h4><a href="#">2-Storey Building</a> <span class="text-uppercase margin-l-20">2021-2022</span></h4>
+                        <p>A Civil Engineering Project of plot size 557.4sqm and Budget is around ₹10 million+. Completed this project within budget and specifications.</p>
+                        <a class="link" href="#">Read More</a>
+                    </div>
+                    <!-- End Latest Products -->
+                </div>
+                <!--// end row -->
+            </div>
         </div>
-      </div>
-      <div class="carousel-item">
-        <div class="row align-content-cente">
- 
-          <div class="col-5 " style=""><img src="img/Dad.jpg" class="dad-pic"></div>
-  
-          <div class="col-7  " >
-            <div class="dad-txt"><h2>APPALA NAIDU</h2>
-            <p class="dad-dis" >Occupatio:farmer
-              Qualification:0<br>
-              Age:48
-              <br>
-            </p> 
-  
-              <i class="fas fa-phone-alt " style="font-size:15px"></i><a href="tel:+919014083979" style="color: black;">+91 9676556564</a><br><br></p> </div></div>
-           
+        <!-- End Work -->
+
+        <!-- Clients -->
+        <div class="bg-color-sky-light">
+            <div class="content-lg container">
+                <!-- Swiper Clients -->
+                <div class="swiper-slider swiper-clients">
+                    <!-- Swiper Wrapper -->
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/01.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/02.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/03.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/04.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/05.png" alt="Clients Logo">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="swiper-clients-img" src="img/clients/06.png" alt="Clients Logo">
+                        </div>
+                    </div>
+                    <!-- End Swiper Wrapper -->
+                </div>
+                <!-- End Swiper Clients -->
+            </div>
         </div>
-    </div>
-    
-    <!-- Left and right controls -->
-    <a class="carousel-control-prev" href="#demo" data-slide="prev" style=" ">
-      <span class="carousel-control-prev-icon"></span>
-    </a>
-    <a class="carousel-control-next" href="#demo" data-slide="next" style="">
-      <span class="carousel-control-next-icon"></span>
-    </a>
-  </div> 
+        <!-- End Clients -->
 
-  <div class="row" ><div class="col-sm">
-    <div class="anywhere" style="height:200px; ">
-      GET UPDATE FROM ANYWHERE
+        <!-- Promo Banner -->
+        <div class="promo-banner parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+            <div class="container-sm content-lg">
+                <h2 class="promo-banner-title">Displaying the Result</h2>
+                <p class="promo-banner-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            </div>
+        </div>
+        <!-- End Promo Banner -->
+            
+        <!-- Contact -->
+        <div id="contact">
+            <div class="bg-color-sky-light">
+                <div class="container content-lg">
+                    <div class="row margin-b-40">
+                        <div class="col-sm-6">
+                           <h2>Contact Me</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incididunt ut laboret dolore magna aliqua enim minim veniam exercitation</p>
+                        </div>
+                    </div>
+                    <!--// end row -->
 
-      <div class="row">
-       
-      <!-- <div class="input-group mb-3 justify-content-center" style=" width:50%;padding-left:auto;opacity:0.4 " > -->
-        <div style="margin-left:auto;">
-        <input type="email" class="email-any"   style=" background-color:transparent;border:1px solid;color:white;border-radius:5px; margin-left: 1px;width:50%;"  placeholder="Your Email" id="mail" name="email">
-        <a style=" padding:5px;text-decoration:none;border:5px;border:1px solid; border-radius:5px; color:black;opacity: 0.9;background-color: white;" href="mailto:srininivasarao.dannana2000@gmail.com">send  </a>
-       
-      </div>  
-    </div></div></div>
+                    <div class="row">
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Location</h4>
+                            <a href="https://goo.gl/maps/MVSdjGsEyTXwruQHA">Sancham Ranstlam Srikakulam Andhra Pradesh 532409</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6 md-margin-b-30">
+                            <h4>Phone</h4>
+                            <a href="tel:+919014083979">+91 9014083979</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Email</h4>
+                            <a href="mailto:srinivasarao.dannana2000@gmail.com">srinivasarao.dannana2000@gmail.com</a>
+                        </div>
+                        <div class="col-md-3 col-xs-6">
+                            <h4>Web</h4>
+                            <a href="#">alex.teseira.com</a>
+                        </div>
+                    </div>
+                    <!--// end row -->
+                </div>
+            </div>
+        </div>
+        <!-- End Contact -->
+        <!--========== END PAGE LAYOUT ==========-->
 
+        <!--========== FOOTER ==========-->
+        <footer class="footer">
+            <div class="content container">
+                <div class="row">
+                   <!-- <div class="col-xs-6">
+                        <img class="footer-logo" src="img/logo.png" alt="Acecv Logo">
+                    </div>
+                    <div class="col-xs-6 text-right sm-text-left">
+                        <p class="margin-b-0"><a class="fweight-700" href="http://keenthemes.com/preview/acecv/">Acecv</a> Theme Powered by: <a class="fweight-700" href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+                    </div> -->
+                </div>
+                <!--// end row -->
+            </div>
+        </footer>
+        <!--========== END FOOTER ==========-->
 
-    <footer class="footer-home">
-      <h1>FOLLOW ME</h1>
-      <div class="fontawesome">
-      <a href="#" class="youtube"><i class="fab fa-3x fa-youtube"  ></i></a>
-      <a href="#" class="facebook"><i class="fab fa-3x fa-facebook-square"></i></a>
-          <a href="#" class="instagram"><i class="fab fa-3x fa-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="fab fa-3x fa-linkedin-in"></i></a>
-                  <a href="#"class="github"> <i class="fab fa-3x fa-github"></i></a>
-                      <a href="#"class="twitter"><i class="fab fa-3x fa-twitter"></i></a>
-      </div><br><br>
-      ALL RIGHTS ARE RESERVED.&#174 2020 SRINU DESIGNED BY:SRINIVASA RAO DANNANA
-    </footer>
-    
-  </div></div>
-  <script src="app.js"></script>
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
 
-<script>
-var i = 0;
-var txt = 'I AM SRINIVASA RAO DANNANA ';
-var speed = 100;
-typeWriter();
-function typeWriter() {
-  
-  if (i < txt.length) {
-    document.getElementById("typeWriter").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeWriter, speed);
-  }
-}
-  </script>
-  
-  </body>
+        <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+        <!-- CORE PLUGINS -->
+        <script src="vendor/jquery.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
+        <!-- PAGE LEVEL PLUGINS -->
+        <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+        <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+        <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+        <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+        <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+        <script src="vendor/swiper/js/swiper.jquery.min.js" type="text/javascript"></script>
 
+        <!-- PAGE LEVEL SCRIPTS -->
+        <script src="js/layout.min.js" type="text/javascript"></script>
+        <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+        <script src="js/components/swiper.min.js" type="text/javascript"></script>
+        <script src="js/components/wow.min.js" type="text/javascript"></script>
 
-      </html>
-
+    </body>
+    <!-- END BODY -->
+</html>
